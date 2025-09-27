@@ -29,7 +29,7 @@ Technologies Used:
 6. RDD Transformations & Actions – Core operations
 
 
-📂** # Project Structure:**
+📂**Project Structure:**
 
 **_Task 1 – NBA Comfortable Zones_**
 Dataset: NBA Shot Logs 2014–2015. Used K-Means clustering on [SHOT_DIST, CLOSE_DEF_DIST, SHOT_CLOCK] to find 4 comfortable shooting zones per player. Calculated hit rates per zone for: James Harden, Chris Paul, Stephen Curry, LeBron James.
@@ -40,6 +40,7 @@ Used conditional probability: P(\text{ticket} | \text{black vehicle on given str
 
 **_Task 3 – Ticket Issuance Time_**
 Dataset: NYC Parking Violations. Found most frequent month-time pair for ticket issuance. Parallelism tested with Spark configurations: 2, 3, 4, 5. Compared execution times for different parallelization levels.
+
 
 🔑 Key Concepts:
 
