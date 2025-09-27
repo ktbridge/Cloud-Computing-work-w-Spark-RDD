@@ -14,6 +14,7 @@ The main goal was to evaluate datasets related to:
 The project leverages PySpark for distributed processing and showcases map-reduce transformations on real-world datasets.
 
 
+
 **Technologies Used:**
 
 1. Google Cloud Platform (GCP) – Cluster setup (3 VMs)
@@ -29,9 +30,10 @@ The project leverages PySpark for distributed processing and showcases map-reduc
 6. RDD Transformations & Actions – Core operations
 
 
+
 📂**Project Structure:**
 
-**_Task 1 – NBA Comfortable Zones_**
+*_Task 1 – NBA Comfortable Zones_*
 Dataset: NBA Shot Logs 2014–2015. Used K-Means clustering on [SHOT_DIST, CLOSE_DEF_DIST, SHOT_CLOCK] to find 4 comfortable shooting zones per player. Calculated hit rates per zone for: James Harden, Chris Paul, Stephen Curry, LeBron James.
 
 **_Task 2 – Parking Ticket Probability_**
@@ -42,7 +44,8 @@ Used conditional probability: P(\text{ticket} | \text{black vehicle on given str
 Dataset: NYC Parking Violations. Found most frequent month-time pair for ticket issuance. Parallelism tested with Spark configurations: 2, 3, 4, 5. Compared execution times for different parallelization levels.
 
 
-🔑 Key Concepts:
+
+**Key Concepts:**
 
 RDD (Resilient Distributed Dataset) = Immutable, partitioned collections of data processed across nodes.
 Vector Assembler (Spark MLlib) = Combined multiple features into a single feature vector for K-Means input.
