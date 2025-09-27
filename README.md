@@ -40,7 +40,6 @@ Dataset: NBA Shot Logs 2014–2015. Used K-Means clustering on [SHOT_DIST, CLOSE
 **_Task 2 – Parking Ticket Probability_**
 
 Dataset: NYC Parking Violations. Computed probability that a black vehicle parked at street codes [34510, 10030, 34050] receives a ticket.
-Used conditional probability: P(\text{ticket} | \text{black vehicle on given streets}) = \frac{\text{# black vehicles ticketed}}{\text{total vehicles ticketed}}.
 
 **_Task 3 – Ticket Issuance Time_**
 
