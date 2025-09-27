@@ -31,16 +31,19 @@ The project leverages PySpark for distributed processing and showcases map-reduc
 
 
 
-📂**Project Structure:**
+**Project Structure:**
 
-*_Task 1 – NBA Comfortable Zones_*
+**_Task 1 – NBA Comfortable Zones_**
+
 Dataset: NBA Shot Logs 2014–2015. Used K-Means clustering on [SHOT_DIST, CLOSE_DEF_DIST, SHOT_CLOCK] to find 4 comfortable shooting zones per player. Calculated hit rates per zone for: James Harden, Chris Paul, Stephen Curry, LeBron James.
 
 **_Task 2 – Parking Ticket Probability_**
+
 Dataset: NYC Parking Violations. Computed probability that a black vehicle parked at street codes [34510, 10030, 34050] receives a ticket.
 Used conditional probability: P(\text{ticket} | \text{black vehicle on given streets}) = \frac{\text{# black vehicles ticketed}}{\text{total vehicles ticketed}}.
 
 **_Task 3 – Ticket Issuance Time_**
+
 Dataset: NYC Parking Violations. Found most frequent month-time pair for ticket issuance. Parallelism tested with Spark configurations: 2, 3, 4, 5. Compared execution times for different parallelization levels.
 
 
