@@ -26,7 +26,7 @@ Technologies Used:
 5. K-Means (Spark MLlib) – Clustering algorithm
 
 6. RDD Transformations & Actions – Core operations
-7. 
+
 
 📂** # Project Structure:**
 **_Task 1 – NBA Comfortable Zones_**
@@ -51,31 +51,12 @@ How to Run: setup cluster on GCP; create a 3-node Spark cluster using GCP VMs; c
 # Example: Run with parallelism = 4
 spark-submit --conf spark.default.parallelism=4 main.py
 
-
-Outputs
-
+Outputs:
 Task 1: Comfortable zones with max hit rate for each player.
-
 Task 2: Probability of a black vehicle being ticketed.
-
 Task 3: Most frequent (month-time) pair for ticket issuance + runtime comparison across parallelism levels.
 
-📊 Results
-
+Results:
 Task 1: Identified most comfortable shooting zones for each player.
-
 Task 2: Estimated probability for black vehicles at given street codes.
-
 Task 3: Found peak ticket issuance time and showed how parallelism impacts execution speed.
-
-📖 Terminology
-
-RDD – Resilient Distributed Dataset
-
-Spark – Unified analytics engine for big data
-
-PySpark – Python API for Spark
-
-HDFS – Hadoop Distributed File System
-
-VMs – Virtual Machines on GCP
