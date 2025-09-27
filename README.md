@@ -1,6 +1,6 @@
 # **Spark RDD Project on Google Cloud (3-Node Cluster)**
 
-Overview:
+**Overview:**
 
 This project demonstrates the implementation of Spark RDDs on a 3-node cluster using Google Cloud Platform (GCP).
 The main goal was to evaluate datasets related to:
@@ -14,7 +14,7 @@ The main goal was to evaluate datasets related to:
 The project leverages PySpark for distributed processing and showcases map-reduce transformations on real-world datasets.
 
 
-Technologies Used:
+**Technologies Used:**
 
 1. Google Cloud Platform (GCP) – Cluster setup (3 VMs)
 
